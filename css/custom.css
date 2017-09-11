@@ -1,0 +1,123 @@
+/*##########################################################################
+##                        JOB TV CUSTOM CSS                               ##
+##########################################################################*/
+
+
+
+
+
+
+
+/*Navigation*/
+
+.nav {
+    min-height: 79px;
+}
+
+.nav > .container {
+    background: #FFEC00;
+}
+    
+
+.nav-item img {
+    max-height: 12.8rem;
+}
+
+/*Hero*/
+
+html body section.hero div.container figure.image img{
+    max-width: 1344px;
+    max-height: 650px;
+}
+
+/*Info*/
+
+.info {
+    min-height: 3.3rem;
+    background: black;
+    font-weight: bold;
+
+}
+
+info_1{
+    display: block;
+    padding: 15px 95px 0 95px;
+    margin: 0 -20px -20px -20px;
+}
+
+info_2{
+    display: block;
+    padding: 15px 95px 0 95px;
+    margin: 0 -20px -20px -20px;
+}
+
+.infotitle {
+    display: inline-block;
+    margin-left: 5.25rem;
+    color: #FFEC00;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.infotext {
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: white;
+    font-size: 0.75rem;
+
+}
+
+/* Text-Box */
+
+
+.title {
+    display: inline-block;
+    margin-left: 5.25rem;
+        margin-right: 5.25rem;
+
+
+}
+
+.text {
+    display: inline-block;
+    margin-left: 5.25rem;
+        margin-right: 5.25rem;
+
+}
+
+
+/*Spotlight*/
+
+html body section.section div.container div.columns.spotlight{
+    margin-left: 5.25rem;
+    margin-right: 5.25rem;
+}
+
+.spotlight {
+        
+}
+
+.spotlightimage {
+    
+}
+
+.spotlighttext {
+    
+}
+
+.spotlighttitle {
+    
+}
+
+/*Footer*/
+
+.footer {
+    background: white;
+}
+
+body > section:nth-child(5) > footer {
+        margin-left: 5.25rem;
+        margin-right: 5.25rem;
+}
+
+

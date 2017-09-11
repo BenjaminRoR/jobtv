@@ -3,136 +3,188 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hero - Free Bulma template</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../jobTV/assets/bulma-0.5.1/css/bulma.css">
-    <link rel="stylesheet" type="text/css" href="../jobTV/assets/css/custom.css">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/bulma/css/bulma.css">
+    <link rel="stylesheet" href="../css/custom.css">
 </head>
 
 <body>
-    <section class="hero is-primary is-large header-image">
-        <div class="hero-head">
-            <header class="nav">
-                <div class="container">
-                    <div class="nav-left">
-                        <a class="nav-item" href="../index.html">
-                            <img src="../images/bulma-white.png" alt="Logo">
-                        </a>
-                    </div>
-                    <span class="nav-toggle">
-            <span></span>
-                    <span></span>
-                    <span></span>
-                    </span>
-                    <div class="nav-right nav-menu">
-                        <a class="nav-item is-active">
-              Home
-            </a>
-                        <a class="nav-item">
-              Examples
-            </a>
-                        <a class="nav-item">
-              Documentation
-            </a>
-                        <span class="nav-item">
-              <a class="button is-info is-outlined is-inverted">
-                <span class="icon">
-                  <i class="fa fa-github"></i>
-                </span>
-                        <span>Download</span>
-                        </a>
-                        </span>
-                    </div>
-                </div>
-            </header>
-        </div>
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="title is-2">
-                    Hero Heading
-                </h1>
-                <h2 class="subtitle is-5">
-                    A hero description could go here.
-                </h2>
-                <p>
-                    <a class="button is-outlined">
-                        <span class="icon">
-              <i class="fa fa-download"></i> 
-            </span>
-                        <span>
-              Download
-            </span>
+    <section>
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-left">
+                    <a class="nav-item is-brand" href="#">
+                        <img src="../assets/images/jobtvlogo.svg" alt="Job TV Medienwerkstatt" width="205" height="84">
                     </a>
-                </p>
+                </div>
+                <span id="nav-toggle" class="nav-toggle" onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
+      <span></span>
+                <span></span>
+                <span></span>
+                </span>
+                <div id="nav-menu" class="nav-right nav-menu">
+                    <span class="nav-item">
+        <a href="#">
+          Logs
+        </a>
+      </span>
+                    <span class="nav-item">
+        <a href="#">
+          Emails
+        </a>
+      </span>
+                    <span class="nav-item">
+        <a href="#">
+          Users
+        </a>
+      </span>
+                </div>
+            </div>
+        </nav>
+        <div class="container info">
+            <div class="info_1">
+                <div class="infotitle">All services are online.</div>
+                <div class="infotext">As of August 1, 2016 at 11:08PM MST.</div>
+            </div>
+            <div class="info_2">
+                <div class="infotitle">All services are online.</div>
+                <div class="infotext">As of August 1, 2016 at 11:08PM MST.</div>
             </div>
         </div>
     </section>
-    <div class="hero-cta">
-        <nav class="level">
-            <div class="level-item has-text-centered">
-                <p class="title">Call to action here! <a class="button is-primary"><span class="icon"><i class="fa fa-download"></i></span><span>Intent</span></a></p>
-            </div>
-        </nav>
-    </div>
-    <div class="section main">
+    <section class="hero">
+
         <div class="container">
-            <div class="columns">
-                <div class="column is-4">
-                    <div class="panel">
-                        <div class="panel-block section">
-                            <p class="has-text-centered"><i class="fa fa-camera-retro icon-block"></i></p>
-                            <br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-                            <br>
-                            <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-4">
-                    <div class="panel">
-                        <div class="panel-block section">
-                            <p class="has-text-centered"><i class="fa fa-bar-chart icon-block"></i></p>
-                            <br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-                            <br>
-                            <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
-                        </div>
-                    </div>
+            <figure class="image">
+                <img src="https://dummyimage.com/1344x650/#D3D3D/000000">
+            </figure>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">
+                Hello World
+            </h1>
+            <p class="text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
 
-                </div>
-                <div class="column is-4">
-                    <div class="panel">
-                        <div class="panel-block section">
-                            <p class="has-text-centered"><i class="fa fa-cloud icon-block"></i></p>
-                            <br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-                            <br>
-                            <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+            <div class="columns spotlight">
+                <div class="column is-half">
+                    <article class="media left">
+                        <div class="media-left">
+                            <figure class="image is-128x128">
+                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="Image">
+                            </figure>
                         </div>
-                    </div>
 
+                        <div class="content">
+                            <p>
+                                <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                            </p>
+                        </div>
+
+                    </article>
+                </div>
+                <div class="column is-half">
+                    <article class="media right">
+                        <div class="media-left">
+                            <figure class="image is-128x128">
+                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="Image">
+                            </figure>
+                        </div>
+
+                        <div class="content">
+                            <p>
+                                <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                            </p>
+                        </div>
+
+                    </article>
+                </div>
+            </div>
+            <div class="columns spotlight">
+                <div class="column is-half">
+                    <article class="media left">
+                        <div class="media-left">
+                            <figure class="image is-128x128">
+                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="Image">
+                            </figure>
+                        </div>
+
+                        <div class="content">
+                            <p>
+                                <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                            </p>
+                        </div>
+
+                    </article>
+                </div>
+                <div class="column is-half">
+                    <article class="media right">
+                        <div class="media-left">
+                            <figure class="image is-128x128">
+                                <img src="http://bulma.io/images/placeholders/128x128.png" alt="Image">
+                            </figure>
+                        </div>
+
+                        <div class="content">
+                            <p>
+                                <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                            </p>
+                        </div>
+
+                    </article>
                 </div>
             </div>
         </div>
-    </div>
-    <footer class="footer">
-        <div class="container">
-            <div class="content has-text-centered">
-                <p>
-                    <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
-                </p>
-                <p>
-                    <a class="icon" href="https://github.com/jgthms/bulma">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </p>
+    </section>
+    <section>
+        <footer class="footer">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-half">
+                        <div class="content has-text-left">
+                            <p><strong>jobtv medienwerstatt</strong></p>
+                            <p>
+                                mediencampus, baselerstrasse 30, CH-8048 Zürich, Tel. +41 43 544 26 00, info@jobtv.ch
+                            </p>
+                            <p>
+                                <a class="icon" href="https://github.com/jgthms/bulma">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-half">
+                        <div class="content has-text-left">
+                            <p><strong>jobtv medienwerstatt</strong></p>
+                            <p>
+                                mediencampus, baselerstrasse 30, CH-8048 Zürich, Tel. +41 43 544 26 00, info@jobtv.ch
+                            </p>
+                            <p>
+                                <a class="icon" href="https://github.com/jgthms/bulma">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
-    <script async type="text/javascript" src="../jobTV/assets/js/mobilemenu.js"></script>
+        </footer>
+    </section>
+
+
 </body>
 
 </html>
